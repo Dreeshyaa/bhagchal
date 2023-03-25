@@ -1,0 +1,19 @@
+#baghchalboard{
+    background-color: rgb(211, 132, 190);
+    height: 1000px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5,100px);
+    padding: 50px;
+}
+#baghchalboard .tile{
+    display: grid;
+    place-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: pink;
+
+ 
+}
